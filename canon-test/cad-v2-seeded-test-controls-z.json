@@ -1,0 +1,1192 @@
+{
+  "scope": "132 DXFs from cad-corpus-v2-test-only/test; sorted manifest path; 85449809 source bytes",
+  "source_paths": [
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v00_base.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v01_exact_copy.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v02_resave_timestamp.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v03_entity_reorder.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v04_number_format.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v05_layer_rename.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v06_translate.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v07_rotate90.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v08_units_mm.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v09_tiny_float_diff.dxf",
+    "test/f01_title_block_iso_a1/f01_title_block_iso_a1__v10_one_entity_edit.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v00_base.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v01_exact_copy.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v02_resave_timestamp.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v03_entity_reorder.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v04_number_format.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v05_layer_rename.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v06_translate.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v07_rotate90.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v08_units_mm.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v09_tiny_float_diff.dxf",
+    "test/f02_flange_plates/f02_flange_plates__v10_one_entity_edit.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v00_base.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v01_exact_copy.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v02_resave_timestamp.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v03_entity_reorder.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v04_number_format.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v05_layer_rename.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v06_translate.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v07_rotate90.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v08_units_mm.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v09_tiny_float_diff.dxf",
+    "test/f04_floor_plan_office/f04_floor_plan_office__v10_one_entity_edit.dxf",
+    "test/f05_site_contours/f05_site_contours__v00_base.dxf",
+    "test/f05_site_contours/f05_site_contours__v01_exact_copy.dxf",
+    "test/f05_site_contours/f05_site_contours__v02_resave_timestamp.dxf",
+    "test/f05_site_contours/f05_site_contours__v03_entity_reorder.dxf",
+    "test/f05_site_contours/f05_site_contours__v04_number_format.dxf",
+    "test/f05_site_contours/f05_site_contours__v05_layer_rename.dxf",
+    "test/f05_site_contours/f05_site_contours__v06_translate.dxf",
+    "test/f05_site_contours/f05_site_contours__v07_rotate90.dxf",
+    "test/f05_site_contours/f05_site_contours__v08_units_mm.dxf",
+    "test/f05_site_contours/f05_site_contours__v09_tiny_float_diff.dxf",
+    "test/f05_site_contours/f05_site_contours__v10_one_entity_edit.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v00_base.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v01_exact_copy.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v02_resave_timestamp.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v03_entity_reorder.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v04_number_format.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v05_layer_rename.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v06_translate.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v07_rotate90.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v08_units_mm.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v09_tiny_float_diff.dxf",
+    "test/f06_pcb_drill_map/f06_pcb_drill_map__v10_one_entity_edit.dxf",
+    "test/f07_stair_section/f07_stair_section__v00_base.dxf",
+    "test/f07_stair_section/f07_stair_section__v01_exact_copy.dxf",
+    "test/f07_stair_section/f07_stair_section__v02_resave_timestamp.dxf",
+    "test/f07_stair_section/f07_stair_section__v03_entity_reorder.dxf",
+    "test/f07_stair_section/f07_stair_section__v04_number_format.dxf",
+    "test/f07_stair_section/f07_stair_section__v05_layer_rename.dxf",
+    "test/f07_stair_section/f07_stair_section__v06_translate.dxf",
+    "test/f07_stair_section/f07_stair_section__v07_rotate90.dxf",
+    "test/f07_stair_section/f07_stair_section__v08_units_mm.dxf",
+    "test/f07_stair_section/f07_stair_section__v09_tiny_float_diff.dxf",
+    "test/f07_stair_section/f07_stair_section__v10_one_entity_edit.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v00_base.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v01_exact_copy.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v02_resave_timestamp.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v03_entity_reorder.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v04_number_format.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v05_layer_rename.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v06_translate.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v07_rotate90.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v08_units_mm.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v09_tiny_float_diff.dxf",
+    "test/f09_freestyle_sketch_a/f09_freestyle_sketch_a__v10_one_entity_edit.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v00_base.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v01_exact_copy.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v02_resave_timestamp.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v03_entity_reorder.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v04_number_format.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v05_layer_rename.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v06_translate.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v07_rotate90.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v08_units_mm.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v09_tiny_float_diff.dxf",
+    "test/f11_door_schedule/f11_door_schedule__v10_one_entity_edit.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v00_base.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v01_exact_copy.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v02_resave_timestamp.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v03_entity_reorder.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v04_number_format.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v05_layer_rename.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v06_translate.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v07_rotate90.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v08_units_mm.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v09_tiny_float_diff.dxf",
+    "test/f12_bracket_parts/f12_bracket_parts__v10_one_entity_edit.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v00_base.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v01_exact_copy.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v02_resave_timestamp.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v03_entity_reorder.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v04_number_format.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v05_layer_rename.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v06_translate.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v07_rotate90.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v08_units_mm.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v09_tiny_float_diff.dxf",
+    "test/f13_parking_layout/f13_parking_layout__v10_one_entity_edit.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v00_base.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v01_exact_copy.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v02_resave_timestamp.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v03_entity_reorder.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v04_number_format.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v05_layer_rename.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v06_translate.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v07_rotate90.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v08_units_mm.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v09_tiny_float_diff.dxf",
+    "test/f14_electrical_panels/f14_electrical_panels__v10_one_entity_edit.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v00_base.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v01_exact_copy.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v02_resave_timestamp.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v03_entity_reorder.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v04_number_format.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v05_layer_rename.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v06_translate.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v07_rotate90.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v08_units_mm.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v09_tiny_float_diff.dxf",
+    "test/f15_truss_elevations/f15_truss_elevations__v10_one_entity_edit.dxf"
+  ],
+  "modes": "N raw objects; Z production representation selector for A1/A2/C1, zstd standalone/patch for C2; P remains raw in both rows; C2 N is exact whole-file dedup without patches",
+  "fastcdc_version": "1.7.0",
+  "zstd_version": "*** Zstandard CLI (64-bit) v1.5.7, by Yann Collet ***",
+  "root_manifest_policy": "manifest catalog encoded 4+2; each 240-byte catalog-stripe manifest plus 32-byte external trust hash charged as six physical copies",
+  "arms": {
+    "A1": {
+      "Z": {
+        "physical": {
+          "ledger_bytes": 10282238,
+          "data_stripes": 10,
+          "data_share_bytes": 15423360,
+          "manifest_catalog_bytes": 2421,
+          "manifest_stripes": 1,
+          "manifest_share_bytes": 3636,
+          "bootstrap_copies": 6,
+          "bootstrap_bytes": 1632,
+          "total_physical_bytes": 15428628,
+          "all_21_loss_patterns_exact": "true"
+        },
+        "sections": {
+          "literal_payloads": 10245837,
+          "object_headers": 17225,
+          "ordered_references": 1648,
+          "file_manifests": 5808,
+          "hash_index": 11704,
+          "framing": 16
+        },
+        "unique_objects": 325,
+        "references": 412,
+        "confirmed_hash_hits": 87,
+        "patches": 0,
+        "incremental_physical_bytes": null,
+        "all_files_byte_and_sha256_restored": true,
+        "a2_normalization_counts": null
+      }
+    },
+    "A2": {
+      "Z": {
+        "physical": {
+          "ledger_bytes": 9701931,
+          "data_stripes": 10,
+          "data_share_bytes": 14552898,
+          "manifest_catalog_bytes": 2421,
+          "manifest_stripes": 1,
+          "manifest_share_bytes": 3636,
+          "bootstrap_copies": 6,
+          "bootstrap_bytes": 1632,
+          "total_physical_bytes": 14558166,
+          "all_21_loss_patterns_exact": "true"
+        },
+        "sections": {
+          "literal_payloads": 9658962,
+          "object_headers": 20829,
+          "ordered_references": 2164,
+          "file_manifests": 5808,
+          "hash_index": 14152,
+          "framing": 16
+        },
+        "unique_objects": 393,
+        "references": 409,
+        "confirmed_hash_hits": 148,
+        "patches": 0,
+        "incremental_physical_bytes": null,
+        "all_files_byte_and_sha256_restored": true,
+        "a2_normalization_counts": [
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 433,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 435,
+            "undo_bytes": 11316
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 1934,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 1936,
+            "undo_bytes": 50456
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 20845,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 20847,
+            "undo_bytes": 555964
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 3,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 5,
+            "undo_bytes": 230
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 52517,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 52519,
+            "undo_bytes": 1337533
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 22741,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 22743,
+            "undo_bytes": 570966
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 143,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 145,
+            "undo_bytes": 3781
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 1,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 3,
+            "undo_bytes": 177
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 28262,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 28264,
+            "undo_bytes": 717252
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 33528,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 33530,
+            "undo_bytes": 885721
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 931,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 933,
+            "undo_bytes": 24119
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 2,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 4,
+            "undo_bytes": 204
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 25667,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 25669,
+            "undo_bytes": 715312
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 42774,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 42776,
+            "undo_bytes": 1131792
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 6576,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 6578,
+            "undo_bytes": 173792
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          },
+          {
+            "numeric_spelling": 0,
+            "line_format": 0,
+            "header_timestamp": 2,
+            "undo_ops": 2,
+            "undo_bytes": 152
+          }
+        ]
+      }
+    },
+    "C1": {
+      "Z": {
+        "physical": {
+          "ledger_bytes": 9140859,
+          "data_stripes": 9,
+          "data_share_bytes": 13711290,
+          "manifest_catalog_bytes": 2181,
+          "manifest_stripes": 1,
+          "manifest_share_bytes": 3276,
+          "bootstrap_copies": 6,
+          "bootstrap_bytes": 1632,
+          "total_physical_bytes": 13716198,
+          "all_21_loss_patterns_exact": "true"
+        },
+        "sections": {
+          "literal_payloads": 8870603,
+          "object_headers": 147764,
+          "ordered_references": 16296,
+          "file_manifests": 5808,
+          "hash_index": 100372,
+          "framing": 16
+        },
+        "unique_objects": 2788,
+        "references": 4074,
+        "confirmed_hash_hits": 1286,
+        "patches": 0,
+        "incremental_physical_bytes": null,
+        "all_files_byte_and_sha256_restored": true,
+        "a2_normalization_counts": null
+      }
+    },
+    "C2": {
+      "Z": {
+        "physical": {
+          "ledger_bytes": 7577307,
+          "data_stripes": 8,
+          "data_share_bytes": 11365962,
+          "manifest_catalog_bytes": 1941,
+          "manifest_stripes": 1,
+          "manifest_share_bytes": 2916,
+          "bootstrap_copies": 6,
+          "bootstrap_bytes": 1632,
+          "total_physical_bytes": 11370510,
+          "all_21_loss_patterns_exact": "true"
+        },
+        "sections": {
+          "literal_payloads": 7560271,
+          "object_headers": 6360,
+          "ordered_references": 528,
+          "file_manifests": 5808,
+          "hash_index": 4324,
+          "framing": 16
+        },
+        "unique_objects": 120,
+        "references": 132,
+        "confirmed_hash_hits": 12,
+        "patches": 89,
+        "incremental_physical_bytes": null,
+        "all_files_byte_and_sha256_restored": true,
+        "a2_normalization_counts": null
+      }
+    }
+  }
+}

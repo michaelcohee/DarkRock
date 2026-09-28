@@ -1,0 +1,3 @@
+arm	mode	view	files	source_bytes	protected_bytes	all_21_loss_patterns_exact
+A3_v2	Z	Protected	132	85449809	44758662	true
+A3_v2	Z	Derived	132	85449809	16671756	true

@@ -1,0 +1,437 @@
+{
+  "scope": "Single volume, one Apple M1 Mac, CPU only. No network, no node loss, no Storj, no chain.",
+  "restore_target": "published converted DXF bytes, not source DWG bytes",
+  "corpus_manifest_sha256": "5ce26ceb2be36dfecd43c929d0cd77a2f9331bd822fc7c426977ade66b139810",
+  "source_files": 47,
+  "source_bytes": 137460149,
+  "fastcdc_version": "1.7.0",
+  "zstd_version": "*** Zstandard CLI (64-bit) v1.5.7, by Yann Collet ***",
+  "a1": {
+    "mode_n": {
+      "packed_bytes": 136935861,
+      "stripes": 131,
+      "actual_share_bytes": 205403796,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 55264,
+      "modeled_metadata_protected_bytes": 82896,
+      "total_protected_bytes": 205486692
+    },
+    "mode_z": {
+      "packed_bytes": 15621710,
+      "stripes": 15,
+      "actual_share_bytes": 23432568,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 28352,
+      "modeled_metadata_protected_bytes": 42528,
+      "total_protected_bytes": 23475096
+    },
+    "source_bytes": 137460149,
+    "unique_objects": 544,
+    "references": 546,
+    "confirmed_hash_hits": 2,
+    "hash_bucket_mismatches": 0,
+    "all_files_byte_and_sha256_restored": true,
+    "mode_z_selector": {
+      "objects": 544,
+      "raw_bytes": 136935861,
+      "selected_bytes": 15621710,
+      "zstd_objects": 544,
+      "skipped_zstd": 0
+    }
+  },
+  "c1": {
+    "mode_n": {
+      "packed_bytes": 120634679,
+      "stripes": 116,
+      "actual_share_bytes": 180952020,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 272180,
+      "modeled_metadata_protected_bytes": 408270,
+      "total_protected_bytes": 181360290
+    },
+    "mode_z": {
+      "packed_bytes": 14801591,
+      "stripes": 15,
+      "actual_share_bytes": 22202388,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 248748,
+      "modeled_metadata_protected_bytes": 373122,
+      "total_protected_bytes": 22575510
+    },
+    "source_bytes": 137460149,
+    "unique_objects": 5316,
+    "references": 6025,
+    "confirmed_hash_hits": 709,
+    "hash_bucket_mismatches": 0,
+    "all_files_byte_and_sha256_restored": true,
+    "mode_z_selector": {
+      "objects": 5316,
+      "raw_bytes": 120634679,
+      "selected_bytes": 14801591,
+      "zstd_objects": 5316,
+      "skipped_zstd": 0
+    }
+  },
+  "c2": {
+    "mode_z": {
+      "packed_bytes": 12329322,
+      "stripes": 12,
+      "actual_share_bytes": 18493986,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 5387,
+      "modeled_metadata_protected_bytes": 8081,
+      "total_protected_bytes": 18502067
+    },
+    "methods": {
+      "standalone_zstd": 19,
+      "patch": 28
+    },
+    "choices": [
+      {
+        "file": "077233_slhd-72-x-72---1.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 231583,
+        "stored_bytes": 231583
+      },
+      {
+        "file": "077233_slhd-72-x-72---2.dxf",
+        "method": "patch",
+        "base": "077233_slhd-72-x-72---1.dxf",
+        "standalone_bytes": 244495,
+        "stored_bytes": 231605
+      },
+      {
+        "file": "081316_series-8150---standard-nail-on---ox-sliding-door-with-low-sill-and-standard-hardware.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 471418,
+        "stored_bytes": 471418
+      },
+      {
+        "file": "081316_series-8150---standard-nail-on---ox-sliding-door-with-water-leg-sill-and-standard-hardware.dxf",
+        "method": "patch",
+        "base": "081316_series-8150---standard-nail-on---ox-sliding-door-with-low-sill-and-standard-hardware.dxf",
+        "standalone_bytes": 423837,
+        "stored_bytes": 350042
+      },
+      {
+        "file": "081316_series-8150---standard-nail-on---oxxo-sliding-door-with-low-sill-and-standard-hardware.dxf",
+        "method": "patch",
+        "base": "081316_series-8150---standard-nail-on---ox-sliding-door-with-low-sill-and-standard-hardware.dxf",
+        "standalone_bytes": 650661,
+        "stored_bytes": 575797
+      },
+      {
+        "file": "081316_series-8150---standard-nail-on---oxxo-sliding-door-with-water-leg-sill-and-standard-hardware.dxf",
+        "method": "patch",
+        "base": "081316_series-8150---standard-nail-on---ox-sliding-door-with-low-sill-and-standard-hardware.dxf",
+        "standalone_bytes": 613468,
+        "stored_bytes": 537468
+      },
+      {
+        "file": "081373_universal-system-bi-pass-doors.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 637019,
+        "stored_bytes": 637019
+      },
+      {
+        "file": "081373_universal-system-celling-mount-door.dxf",
+        "method": "patch",
+        "base": "081373_universal-system-bi-pass-doors.dxf",
+        "standalone_bytes": 209975,
+        "stored_bytes": 130659
+      },
+      {
+        "file": "081373_universal-system-wall-mount-door.dxf",
+        "method": "patch",
+        "base": "081373_universal-system-bi-pass-doors.dxf",
+        "standalone_bytes": 234467,
+        "stored_bytes": 154830
+      },
+      {
+        "file": "081476_series-240---sliding-jamb-options.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 23530,
+        "stored_bytes": 23530
+      },
+      {
+        "file": "081476_series-440---sliding-jamb-options.dxf",
+        "method": "patch",
+        "base": "081476_series-240---sliding-jamb-options.dxf",
+        "standalone_bytes": 21872,
+        "stored_bytes": 13510
+      },
+      {
+        "file": "081476_series-540---sliding-jamb-options.dxf",
+        "method": "patch",
+        "base": "081476_series-240---sliding-jamb-options.dxf",
+        "standalone_bytes": 22277,
+        "stored_bytes": 9543
+      },
+      {
+        "file": "081476_sjo-640.dxf",
+        "method": "patch",
+        "base": "081476_series-240---sliding-jamb-options.dxf",
+        "standalone_bytes": 22758,
+        "stored_bytes": 8272
+      },
+      {
+        "file": "081613_v2-sliding-door-det-head-and-sill.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 791285,
+        "stored_bytes": 791285
+      },
+      {
+        "file": "083200_clear-sliding-door.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 1461900,
+        "stored_bytes": 1461900
+      },
+      {
+        "file": "083200_g3-hurricane-hook-rail-lns-door.dxf",
+        "method": "patch",
+        "base": "083200_clear-sliding-door.dxf",
+        "standalone_bytes": 1410689,
+        "stored_bytes": 471504
+      },
+      {
+        "file": "083213_2900-v2-ooxoo-section-detail.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 252245,
+        "stored_bytes": 252245
+      },
+      {
+        "file": "083213_2900-v2-oozo-section-detail.dxf",
+        "method": "patch",
+        "base": "083213_2900-v2-ooxoo-section-detail.dxf",
+        "standalone_bytes": 236518,
+        "stored_bytes": 229879
+      },
+      {
+        "file": "083213_2900-v2-oozoo-section-detail.dxf",
+        "method": "patch",
+        "base": "083213_2900-v2-ooxoo-section-detail.dxf",
+        "standalone_bytes": 251433,
+        "stored_bytes": 243980
+      },
+      {
+        "file": "083213_2900-v2-oxo-section-detail.dxf",
+        "method": "patch",
+        "base": "083213_2900-v2-ooxoo-section-detail.dxf",
+        "standalone_bytes": 212663,
+        "stored_bytes": 208220
+      },
+      {
+        "file": "08392108.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 71648,
+        "stored_bytes": 71648
+      },
+      {
+        "file": "08392109.dxf",
+        "method": "patch",
+        "base": "08392108.dxf",
+        "standalone_bytes": 299021,
+        "stored_bytes": 282019
+      },
+      {
+        "file": "08392117.dxf",
+        "method": "patch",
+        "base": "08392108.dxf",
+        "standalone_bytes": 646706,
+        "stored_bytes": 631901
+      },
+      {
+        "file": "084243_1016197---assa-abloy-versamax-ohc-fbo-single-slide-narrow-rev-4-0.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 543773,
+        "stored_bytes": 543773
+      },
+      {
+        "file": "084243_1016198---assa-abloy-versamax-ohc-fbo-single-slide-narrow-smoke-rated-rev-4-0.dxf",
+        "method": "patch",
+        "base": "084243_1016197---assa-abloy-versamax-ohc-fbo-single-slide-narrow-rev-4-0.dxf",
+        "standalone_bytes": 352717,
+        "stored_bytes": 91611
+      },
+      {
+        "file": "084243_1016201---assa-abloy-versamax-ohc-fbo-bi-part-narrow-rev-4-0.dxf",
+        "method": "patch",
+        "base": "084243_1016197---assa-abloy-versamax-ohc-fbo-single-slide-narrow-rev-4-0.dxf",
+        "standalone_bytes": 297773,
+        "stored_bytes": 66272
+      },
+      {
+        "file": "084243_1016202---assa-abloy-versamax-ohc-fbo-bi-part-narrow-smoke-rated-rev-4-0.dxf",
+        "method": "patch",
+        "base": "084243_1016197---assa-abloy-versamax-ohc-fbo-single-slide-narrow-rev-4-0.dxf",
+        "standalone_bytes": 336863,
+        "stored_bytes": 79983
+      },
+      {
+        "file": "084243_tx9200-storm-impact-bp-fixed-sidelight--us801168-h-.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 395847,
+        "stored_bytes": 395847
+      },
+      {
+        "file": "084243_tx9200-storm-impact-ss-fixed-sidelight--us801169-h-.dxf",
+        "method": "patch",
+        "base": "084243_tx9200-storm-impact-bp-fixed-sidelight--us801168-h-.dxf",
+        "standalone_bytes": 413753,
+        "stored_bytes": 233104
+      },
+      {
+        "file": "084243_tx9200-storm-non-impact-bp-fixed-sidelight---us801170-h-.dxf",
+        "method": "patch",
+        "base": "084243_tx9200-storm-impact-bp-fixed-sidelight--us801168-h-.dxf",
+        "standalone_bytes": 371956,
+        "stored_bytes": 241939
+      },
+      {
+        "file": "084243_tx9200-storm-non-impact-ss-fixed-sidelight--us801171-h-.dxf",
+        "method": "patch",
+        "base": "084243_tx9200-storm-impact-bp-fixed-sidelight--us801168-h-.dxf",
+        "standalone_bytes": 390244,
+        "stored_bytes": 259439
+      },
+      {
+        "file": "08495101.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 702669,
+        "stored_bytes": 702669
+      },
+      {
+        "file": "085313.20_new-construction-oxo-3-lite-vinyl-patio-door-as-432.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 118233,
+        "stored_bytes": 118233
+      },
+      {
+        "file": "085313.20_new-construction-vinyl-patio-door-installation-2x6-construction-as-152.dxf",
+        "method": "patch",
+        "base": "085313.20_new-construction-oxo-3-lite-vinyl-patio-door-as-432.dxf",
+        "standalone_bytes": 122143,
+        "stored_bytes": 66704
+      },
+      {
+        "file": "085313.20_new-construction-vinyl-patio-door-sidelite-as-585.dxf",
+        "method": "patch",
+        "base": "085313.20_new-construction-oxo-3-lite-vinyl-patio-door-as-432.dxf",
+        "standalone_bytes": 76847,
+        "stored_bytes": 21462
+      },
+      {
+        "file": "085313.20_new-construction-vinyl-patio-door-with-transom-as-440.dxf",
+        "method": "patch",
+        "base": "085313.20_new-construction-oxo-3-lite-vinyl-patio-door-as-432.dxf",
+        "standalone_bytes": 122549,
+        "stored_bytes": 62751
+      },
+      {
+        "file": "085653_riot-glass-framing-details---2-05---sliding-door-and-fixed-panel-elevation.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 108774,
+        "stored_bytes": 108774
+      },
+      {
+        "file": "087100.14_magic-2-frame.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 114317,
+        "stored_bytes": 114317
+      },
+      {
+        "file": "102313_-elite-freestanding---01-sliding-door-track---glass-door.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 120713,
+        "stored_bytes": 120713
+      },
+      {
+        "file": "102313_-elite-freestanding---02-sliding-door-track---wood-door.dxf",
+        "method": "patch",
+        "base": "102313_-elite-freestanding---01-sliding-door-track---glass-door.dxf",
+        "standalone_bytes": 147168,
+        "stored_bytes": 79337
+      },
+      {
+        "file": "102313_solare-double---22-double-glazed-sliding-door---head.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 111854,
+        "stored_bytes": 111854
+      },
+      {
+        "file": "102313_solare-double---23-double-glazed-sliding-door---sill.dxf",
+        "method": "patch",
+        "base": "102313_solare-double---22-double-glazed-sliding-door---head.dxf",
+        "standalone_bytes": 98851,
+        "stored_bytes": 45606
+      },
+      {
+        "file": "105736_by0120-36x80.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 152328,
+        "stored_bytes": 152328
+      },
+      {
+        "file": "105736_by0120-60x80.dxf",
+        "method": "patch",
+        "base": "105736_by0120-36x80.dxf",
+        "standalone_bytes": 150422,
+        "stored_bytes": 57963
+      },
+      {
+        "file": "105736_by0120-72x80.dxf",
+        "method": "patch",
+        "base": "105736_by0120-36x80.dxf",
+        "standalone_bytes": 151291,
+        "stored_bytes": 60712
+      },
+      {
+        "file": "MOBILIARIO HOSPITAL.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 498127,
+        "stored_bytes": 498127
+      },
+      {
+        "file": "arbusto_PB_verde_grande.dxf",
+        "method": "standalone_zstd",
+        "base": null,
+        "standalone_bytes": 75947,
+        "stored_bytes": 75947
+      }
+    ],
+    "all_files_byte_and_sha256_restored": true,
+    "family_prefixes": [
+      "077233_slhd-",
+      "081316_series-8150-",
+      "081373_universal-system-",
+      "081476_",
+      "083200_",
+      "083213_",
+      "083921",
+      "084243_1016",
+      "084243_tx9200-",
+      "085313.20_",
+      "102313_-elite-",
+      "102313_solare-",
+      "105736_by0120-"
+    ]
+  }
+}

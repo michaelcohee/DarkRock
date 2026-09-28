@@ -1,0 +1,26 @@
+# CAD mapping review before any new test split
+
+**Scope:** review of the frozen v1 entity adapter and the v2 geometry-ranked patch candidate on the development set. No new test split was opened for this review. The original 132-file Tier A “test” split was already read by an earlier exploratory A1 control, so it cannot support a pristine unseen-data claim; generate a fresh split before that claim.
+
+## The rule
+
+**Candidate lookup may be approximate; restoration must be literal.** A key hit is a bucket lookup, never a merge. Before an ingest is reported successful, the decoder must reproduce the input's exact bytes and SHA-256. The in-memory prototype now stores a SHA-256 with each candidate locator and checks both a proposed edit and the complete reconstructed file. This is not yet a transactionally persisted store.
+
+## Mapping audit
+
+1. **Key dependencies.** V1 derives its key from finite parsed geometry numeric tags, entity type, group code, occurrence, and `VERTEX` child order. It does **not** include header variables (`$INSUNITS`, `$MEASUREMENT`), handles `5`/`105`, owners `330`, layers `8`, colors `62`, comments `999`, or text content. Those bytes stay in literal payload or exact edit data. A different unit transform or vertex order can miss a candidate; omission of metadata can create a shared key for byte-different entities. Neither case permits an unverified merge. V2 uses multisets of these keys only to rank whole-file patch bases.
+2. **Closed edit list.** V1 permits exactly one matched-entity edit: `(prefix_len, suffix_len, literal_middle)`. It does not rewrite handles, drop header variables, pretty-print numbers, reorder entities, or emit a canonical polynomial as data. Everything else is a literal run. V2 permits only exact whole-file reference, standalone zstd frame, or zstd patch against an earlier restorable file. A new edit requires a new mapping revision and tests. The development report counts how often the v1 edit fired.
+3. **Raw pass-through.** The scanner identifies byte ranges in the original input; it never serializes parsed tags back to DXF. Unknown sections and entities, `1004`, `310`–`319`, split `1`/`3` strings, precision spellings, comments, and line endings remain in order. Unknown tags within an otherwise supported entity force that entire entity to raw pass-through. A focused test checks the binary-chunk and split-string case. Per-file parsed/raw coverage is in the dev report and v2 JSON.
+4. **ASCII-only.** Binary DXF (`AutoCAD Binary DXF` signature or NUL) now returns an error before ingestion or geometry-key extraction. Malformed ASCII tags can be stored as opaque bytes; the adapter does not claim CAD-semantic validity for such input. Binary support would require a separate versioned parser and tests.
+5. **Key plus content hash.** The in-memory index is `poly_key → up to eight candidate locators`, each with the candidate raw SHA-256. Equal hashes are byte-confirmed. Different hashes may still be compared using the one allowed exact edit; the output bytes and hash are verified. A shared key with different hashes is a bucket, not a duplicate. The index is not persisted or authenticated yet.
+6. **4+2 boundary.** The prior 257-stripe development check protected compressed literal-run payloads, **not** the whole adapter graph. References, edit descriptors, edit middle bytes, candidate hashes, and index were not all serialized and striped together. Therefore that check proves the literal payload's two-loss recovery, not full A3 durable recovery. V2's whole-file patch payload stream was tested under all 21 patterns, and its selected payload graph separately restored every file, but its metadata still uses modeled rather than persisted bytes.
+
+## Accounting to use for a future split
+
+The proposed `B(x) = |raw(x)| + |edit(x)| + |key(x)| + |index entry|` would double-count a matched file's raw bytes. Instead report **incremental cost in a fixed ingest order**: new unique encoded literal/patch bytes, actual edit bytes, ordered references, candidate-key/index records, object hashes, manifests, and any dictionary or side table. Apply the measured 4+2 stripe size and final-share padding to the fully serialized stream. A shared base is charged when first stored; later files pay their own references and edits. Report `ΔP_x = P(S∪{x}) − P(S)` and `ΔP_x / |x|` against a whole-file SHA-256 + raw + 4+2 baseline in the same order.
+
+For each file, record key lookup opportunities, exact-hash matches, verified edited matches, cost-rejected candidates, verification failures, raw pass-through bytes, and whole-file byte/SHA restore. The present v1 dev runner reports lookup, exact and edited counts; it is not a complete protected-byte ledger. No storage-saving claim should be attached to the v1 freeze.
+
+## Gate before opening a fresh split
+
+Serialize and authenticate the complete object/reference/edit/index graph; reconstruct that graph under each one- and two-share loss pattern; then restore every DXF exactly. Fix the complete accounting method and edit list before generating a new held-out corpus. Run a non-polynomial nearest-base patch control alongside V2, because the current 0.65% dev gain over C2 may be entirely due to trying later bases. Open a fresh split once, publish all results including losses, and do not retune against it.

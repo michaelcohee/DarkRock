@@ -1,0 +1,83 @@
+{
+  "corpus_manifest_sha256": "5ce26ceb2be36dfecd43c929d0cd77a2f9331bd822fc7c426977ade66b139810",
+  "restore_target": "frozen converted DXF bytes",
+  "files": 47,
+  "rows": {
+    "a1_mode_n": {
+      "files_verified": 47,
+      "objects_decoded": 544,
+      "references_verified": 546,
+      "undo_bytes": 0,
+      "rs": {
+        "stripes": 131,
+        "packed_bytes": 136935861,
+        "share_bytes": 205403796,
+        "patterns_per_stripe": 21,
+        "recovered_exact": "true"
+      },
+      "baseline_total_protected_bytes": 205486692
+    },
+    "a1_mode_z": {
+      "files_verified": 47,
+      "objects_decoded": 544,
+      "references_verified": 546,
+      "undo_bytes": 0,
+      "rs": {
+        "stripes": 15,
+        "packed_bytes": 15621710,
+        "share_bytes": 23432568,
+        "patterns_per_stripe": 21,
+        "recovered_exact": "true"
+      },
+      "baseline_total_protected_bytes": 23475096
+    },
+    "c1_mode_n": {
+      "files_verified": 47,
+      "objects_decoded": 5316,
+      "references_verified": 6025,
+      "undo_bytes": 0,
+      "rs": {
+        "stripes": 116,
+        "packed_bytes": 120634679,
+        "share_bytes": 180952020,
+        "patterns_per_stripe": 21,
+        "recovered_exact": "true"
+      },
+      "baseline_total_protected_bytes": 181360290
+    },
+    "c1_mode_z": {
+      "files_verified": 47,
+      "objects_decoded": 5316,
+      "references_verified": 6025,
+      "undo_bytes": 0,
+      "rs": {
+        "stripes": 15,
+        "packed_bytes": 14801591,
+        "share_bytes": 22202388,
+        "patterns_per_stripe": 21,
+        "recovered_exact": "true"
+      },
+      "baseline_total_protected_bytes": 22575510
+    },
+    "c2_mode_z": {
+      "files_verified": 47,
+      "objects_decoded": 47,
+      "references_verified": 47,
+      "undo_bytes": 0,
+      "patches_restored_from_recovered_bases": 28,
+      "rs": {
+        "stripes": 12,
+        "packed_bytes": 12329322,
+        "share_bytes": 18493986,
+        "patterns_per_stripe": 21,
+        "recovered_exact": "true"
+      },
+      "baseline_total_protected_bytes": 18502067
+    }
+  },
+  "not_run": [
+    "A2 cheap normalization adapter",
+    "A3 polynomial DXF adapter"
+  ],
+  "cad_fidelity_claim": false
+}

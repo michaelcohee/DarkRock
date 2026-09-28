@@ -1,0 +1,12 @@
+[package]
+name = "darkrock_storage"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reed-solomon-erasure = "6"
+sha2 = "0.10"
+zstd = "0.13"
+
+[features]
+rs-simd = ["reed-solomon-erasure/simd-accel"]

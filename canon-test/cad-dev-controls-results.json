@@ -1,0 +1,274 @@
+{
+  "scope": "Tier A dev only; 44 DXFs; sorted manifest path",
+  "source_bytes": 21601154,
+  "zstd_version": "*** Zstandard CLI (64-bit) v1.5.7, by Yann Collet ***",
+  "a1": {
+    "packed_bytes": 2396943,
+    "stripes": 3,
+    "actual_share_bytes": 3595416,
+    "all_21_loss_patterns_exact": "true",
+    "modeled_metadata_raw_bytes": 4980,
+    "modeled_metadata_protected_bytes": 7470,
+    "total_protected_bytes": 3602886
+  },
+  "a1_unique_chunks": 84,
+  "a1_references": 103,
+  "a1_confirmed_hits": 19,
+  "c2": {
+    "packed_bytes": 1517256,
+    "stripes": 2,
+    "actual_share_bytes": 2275884,
+    "all_21_loss_patterns_exact": "true",
+    "modeled_metadata_raw_bytes": 2756,
+    "modeled_metadata_protected_bytes": 4134,
+    "total_protected_bytes": 2280018
+  },
+  "c2_methods": {
+    "standalone_zstd": 13,
+    "exact_duplicate": 4,
+    "patch": 27
+  },
+  "c2_choices": [
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v00_base.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 1277,
+      "selected_bytes": 1277
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v02_resave_timestamp.dxf",
+      "method": "patch",
+      "standalone_bytes": 1281,
+      "selected_bytes": 43
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v03_entity_reorder.dxf",
+      "method": "patch",
+      "standalone_bytes": 1543,
+      "selected_bytes": 724
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v04_number_format.dxf",
+      "method": "patch",
+      "standalone_bytes": 1306,
+      "selected_bytes": 854
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v05_layer_rename.dxf",
+      "method": "patch",
+      "standalone_bytes": 1272,
+      "selected_bytes": 628
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v06_translate.dxf",
+      "method": "patch",
+      "standalone_bytes": 1278,
+      "selected_bytes": 839
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v07_rotate90.dxf",
+      "method": "patch",
+      "standalone_bytes": 1306,
+      "selected_bytes": 776
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v08_units_mm.dxf",
+      "method": "patch",
+      "standalone_bytes": 1513,
+      "selected_bytes": 1062
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v09_tiny_float_diff.dxf",
+      "method": "patch",
+      "standalone_bytes": 1283,
+      "selected_bytes": 65
+    },
+    {
+      "file": "dev/f00_title_block_ansi_d/f00_title_block_ansi_d__v10_one_entity_edit.dxf",
+      "method": "patch",
+      "standalone_bytes": 1277,
+      "selected_bytes": 32
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v00_base.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 70702,
+      "selected_bytes": 70702
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v02_resave_timestamp.dxf",
+      "method": "patch",
+      "standalone_bytes": 70707,
+      "selected_bytes": 80
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v03_entity_reorder.dxf",
+      "method": "patch",
+      "standalone_bytes": 70728,
+      "selected_bytes": 162
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v04_number_format.dxf",
+      "method": "patch",
+      "standalone_bytes": 70846,
+      "selected_bytes": 59599
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v05_layer_rename.dxf",
+      "method": "patch",
+      "standalone_bytes": 71067,
+      "selected_bytes": 57897
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v06_translate.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 84201,
+      "selected_bytes": 84201
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v07_rotate90.dxf",
+      "method": "patch",
+      "standalone_bytes": 66999,
+      "selected_bytes": 38736
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v08_units_mm.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 75317,
+      "selected_bytes": 75317
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v09_tiny_float_diff.dxf",
+      "method": "patch",
+      "standalone_bytes": 70712,
+      "selected_bytes": 75
+    },
+    {
+      "file": "dev/f03_spur_gears/f03_spur_gears__v10_one_entity_edit.dxf",
+      "method": "patch",
+      "standalone_bytes": 70710,
+      "selected_bytes": 72
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v00_base.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 33431,
+      "selected_bytes": 33431
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v02_resave_timestamp.dxf",
+      "method": "patch",
+      "standalone_bytes": 33433,
+      "selected_bytes": 106
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v03_entity_reorder.dxf",
+      "method": "patch",
+      "standalone_bytes": 63376,
+      "selected_bytes": 36576
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v04_number_format.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 34294,
+      "selected_bytes": 34294
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v05_layer_rename.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 33660,
+      "selected_bytes": 33660
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v06_translate.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 31079,
+      "selected_bytes": 31079
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v07_rotate90.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 33292,
+      "selected_bytes": 33292
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v08_units_mm.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 36875,
+      "selected_bytes": 36875
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v09_tiny_float_diff.dxf",
+      "method": "patch",
+      "standalone_bytes": 35135,
+      "selected_bytes": 1692
+    },
+    {
+      "file": "dev/f08_hex_nut_array/f08_hex_nut_array__v10_one_entity_edit.dxf",
+      "method": "patch",
+      "standalone_bytes": 33451,
+      "selected_bytes": 167
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v00_base.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 164367,
+      "selected_bytes": 164367
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v02_resave_timestamp.dxf",
+      "method": "patch",
+      "standalone_bytes": 164371,
+      "selected_bytes": 106
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v03_entity_reorder.dxf",
+      "method": "patch",
+      "standalone_bytes": 163776,
+      "selected_bytes": 369
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v04_number_format.dxf",
+      "method": "patch",
+      "standalone_bytes": 166728,
+      "selected_bytes": 113311
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v05_layer_rename.dxf",
+      "method": "patch",
+      "standalone_bytes": 165000,
+      "selected_bytes": 101939
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v06_translate.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 169778,
+      "selected_bytes": 169778
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v07_rotate90.dxf",
+      "method": "patch",
+      "standalone_bytes": 165636,
+      "selected_bytes": 148843
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v08_units_mm.dxf",
+      "method": "standalone_zstd",
+      "standalone_bytes": 183529,
+      "selected_bytes": 183529
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v09_tiny_float_diff.dxf",
+      "method": "patch",
+      "standalone_bytes": 164369,
+      "selected_bytes": 105
+    },
+    {
+      "file": "dev/f10_freestyle_sketch_b/f10_freestyle_sketch_b__v10_one_entity_edit.dxf",
+      "method": "patch",
+      "standalone_bytes": 164346,
+      "selected_bytes": 596
+    }
+  ],
+  "accounting": "actual 4+2 share bytes; estimated protected metadata via existing baseline constants; zstd CLI real; no source files modified"
+}

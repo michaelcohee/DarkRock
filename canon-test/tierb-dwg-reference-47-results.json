@@ -1,0 +1,85 @@
+{
+  "scope": "Raw-DWG reference only; separate from frozen converted-DXF arms",
+  "source_manifest_sha256": "82d3506d50afa057edf3d19ed10df929c91814b1ca49138df4b4a868326ca67f",
+  "dwg_files": 47,
+  "dwg_source_bytes": 43360777,
+  "opaque_zips": [
+    {
+      "file": "Hospital-equipment(1).zip",
+      "bytes": 577109,
+      "sha256": "460d84e99beb0bb022798a0e9f5f0705a685c6e1ba617443c7749c9f5ec7ac52"
+    },
+    {
+      "file": "Hospital-equipment.zip",
+      "bytes": 577109,
+      "sha256": "460d84e99beb0bb022798a0e9f5f0705a685c6e1ba617443c7749c9f5ec7ac52"
+    }
+  ],
+  "zip_pair_byte_identical": true,
+  "a1": {
+    "mode_n": {
+      "packed_bytes": 43360777,
+      "stripes": 42,
+      "actual_share_bytes": 65041170,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 18715,
+      "modeled_metadata_protected_bytes": 28073,
+      "total_protected_bytes": 65069243
+    },
+    "mode_z": {
+      "packed_bytes": 21718049,
+      "stripes": 21,
+      "actual_share_bytes": 32577078,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 13843,
+      "modeled_metadata_protected_bytes": 20765,
+      "total_protected_bytes": 32597843
+    },
+    "source_bytes": 43360777,
+    "unique_objects": 191,
+    "references": 191,
+    "confirmed_hash_hits": 0,
+    "hash_bucket_mismatches": 0,
+    "all_files_byte_and_sha256_restored": true,
+    "mode_z_selector": {
+      "objects": 191,
+      "raw_bytes": 43360777,
+      "selected_bytes": 21718049,
+      "zstd_objects": 137,
+      "skipped_zstd": 54
+    }
+  },
+  "c1": {
+    "mode_n": {
+      "packed_bytes": 38528894,
+      "stripes": 37,
+      "actual_share_bytes": 57793344,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 107930,
+      "modeled_metadata_protected_bytes": 161895,
+      "total_protected_bytes": 57955239
+    },
+    "mode_z": {
+      "packed_bytes": 21896995,
+      "stripes": 21,
+      "actual_share_bytes": 32845494,
+      "all_21_loss_patterns_exact": "true",
+      "modeled_metadata_raw_bytes": 104218,
+      "modeled_metadata_protected_bytes": 156327,
+      "total_protected_bytes": 33001821
+    },
+    "source_bytes": 43360777,
+    "unique_objects": 2170,
+    "references": 2335,
+    "confirmed_hash_hits": 165,
+    "hash_bucket_mismatches": 0,
+    "all_files_byte_and_sha256_restored": true,
+    "mode_z_selector": {
+      "objects": 2170,
+      "raw_bytes": 38528894,
+      "selected_bytes": 21896995,
+      "zstd_objects": 1316,
+      "skipped_zstd": 853
+    }
+  }
+}
