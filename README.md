@@ -2,7 +2,7 @@ Single volume, one M1, no network.
 
 # DarkRock / RedTail-X
 
-Michael Cohee · systems engineer, New York
+[Michael Cohee](https://www.linkedin.com/in/michael-cohee/) · systems engineer, New York
 
 DarkRock is a local storage research prototype. Its measured path uses a compression selector, variable-length final shares with standard Reed-Solomon 4+2, and byte-exact reconstruction checks. The node-sprawl exercises use directories on one physical volume. They do not demonstrate multi-host durability, network repair, blockchain operation, or a production storage service.
 
